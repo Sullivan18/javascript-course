@@ -1,27 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="scripts.js"></script>
   </head>
   <body>
-    <div class="container">
-      <h1 class="titulo-principal">Titulo da pagina</h1>
-      <div class="container2">
-        <div class="paragraph">
-          <p>Paragrafo inline</p>
-          <p>Paragrafo internal</p>
-          <p>Paragrafo external</p>
-        </div>
-        <div class="paragraph">
-          <p>Paragrafo inline</p>
-          <p>Paragrafo internal</p>
-          <p>Paragrafo external</p>
-        </div>
+    <h2>Calculadora</h2>
+    <form>
+      <div>
+        <label for="num1">Número 1:</label>
+        <input type="number" id="num1" name="num1" required>
       </div>
-    </div>
+      <div>
+        <label for="num2">Número 2:</label>
+        <input type="number" id="num2" name="num2" required>
+      </div>
+      <div>
+        <label for="operacao">Operação:</label>
+        <select id="operacao" name="operacao">
+          <option value="+">+</option>
+          <option value="-">-</option>
+          <option value="*">*</option>
+          <option value="/">/</option>
+        </select>
+      </div>
+      <div>
+        <input type="button" value="Calcular" onclick="calcular()">
+      </div>
+      <div>
+        <label for="resultado">Resultado:</label>
+        <output name="resultado" id="resultado"></output>
+      </div>
+    </form>
   </body>
 </html>
