@@ -3,6 +3,7 @@ body {
   background-color: #f2f2f2;
 }
 
+
 form {
   max-width: 500px;
   margin: 0 auto;
@@ -11,10 +12,12 @@ form {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
+
 h2 {
   text-align: center;
   margin-bottom: 20px;
 }
+
 
 div {
   display: flex;
@@ -23,10 +26,12 @@ div {
   justify-content: center;
 }
 
+
 label {
   font-weight: bold;
   margin-bottom: 5px;
 }
+
 
 input[type="number"] {
   width: 50px;
@@ -46,6 +51,7 @@ select {
   border: 1px solid #ccc;
 }
 
+
 input[type="button"] {
   width: 100px;
   height: 40px;
@@ -57,9 +63,11 @@ input[type="button"] {
   cursor: pointer;
 }
 
+
 input[type="button"]:hover {
   background-color: #3e8e41;
 }
+
 
 output {
   width: 50px;
@@ -72,9 +80,12 @@ output {
   line-height: 40px;
 }
 
+
 .calc-button {
   margin-top: 20px;
 }
+
+
 
 .result {
   margin-top: 20px;
