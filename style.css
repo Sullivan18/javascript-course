@@ -52,6 +52,7 @@ select {
 }
 
 
+
 input[type="button"] {
   width: 100px;
   height: 40px;
@@ -62,6 +63,7 @@ input[type="button"] {
   color: white;
   cursor: pointer;
 }
+ 
 
 
 input[type="button"]:hover {
@@ -79,6 +81,7 @@ output {
   font-size: 24px;
   line-height: 40px;
 }
+
 
 
 .calc-button {
