@@ -4,15 +4,18 @@ function calcular() {
     var operacao = document.getElementById("operacao").value;
     var resultado = 0;
 
-    if (operacao === "+") {
+    if ( operacao === "+") {
       resultado = parseInt(num1) + parseInt(num2);
-    } else if (operacao === "-") {
-      resultado = parseInt(num1) - parseInt(num2);
-    } else if (operacao === "*") {
+    } else if ( operacao === "-") {
+      resultado = parseint(num1) - parseint(num2);
+    }
+    else if ( operacao === "*") {
       resultado = parseInt(num1) * parseInt(num2);
-    } else if (operacao === "/") {
+    }
+    else if ( operacao === "/") {
       resultado = parseInt(num1) / parseInt(num2);
     }
+
 
     document.getElementById("resultado").innerHTML = resultado;
   }
