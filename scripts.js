@@ -4,6 +4,7 @@ function calcular() {
     var operacao = document.getElementById("operacao").value;
     var resultado = 0;
 
+    
     if ( operacao === "+") {
       resultado = parseInt(num1) + parseInt(num2);
     } else if ( operacao === "-") {
