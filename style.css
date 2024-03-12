@@ -16,7 +16,6 @@ body {
   margin-left: 1.2%;
   float: left;
   width: 50px;
-  
 }
 
 .header a {
@@ -46,7 +45,7 @@ body {
 .header-right {
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
 }
 
 @media screen and (max-width: 500px) {
