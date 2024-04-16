@@ -3,58 +3,12 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* este eu ja to ligado*/
-
-.header {
-  overflow: hidden;
-  background-color: rgba(208, 97, 97, 0.3);
-  backdrop-filter: blur(40px);
-  padding: 20px 10px;
-}
-
-.header img {
-  margin-left: 1.2%;
-  float: left;
-  width: 50px;
-}
-
-.header a {
+div#area{
+  font: 20pt;
+  background-color: aquamarine;
   color: black;
-  padding: 12px;
-  text-decoration: none !important;
-  font-size: 17px;
-  line-height: 25px;
-  border-radius: 4px;
-  opacity: 1;
-  transition: opacity 0.3s linear 0s;
-}
-
-.header a:hover {
-  opacity: 0.32;
-}
-
-.header img:hover {
-  opacity: 0.32;
-}
-
-.header a.active {
-  background-color: dodgerblue !important;
-  color: white !important;
-}
-
-.header-right {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-@media screen and (max-width: 500px) {
-  .header a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  .header-right {
-    float: none;
-  }
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
 }
