@@ -12,3 +12,13 @@ div#area{
   line-height: 200px;
   text-align: center;
 }
+
+input{
+  width: 80px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+}
+div#res{
+  margin-top: 20px;
+}
