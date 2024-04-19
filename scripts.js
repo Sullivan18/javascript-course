@@ -8,4 +8,7 @@ function calcular() {
   } else {
     res.innerHTML = `Velocidade acima do permitido: <strong> ${vel} Km/h </strong>`;
   }
+
+  
+ 
 }
