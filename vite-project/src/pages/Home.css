@@ -1,0 +1,52 @@
+/* Home.css */
+html, body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.home-container {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    max-width: 100%; /* Defina a largura máxima desejada */
+    margin: 0 auto; /* Centraliza o contêiner horizontalmente */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.products, .categories, .footer {
+    padding: 2rem;
+    text-align: center;
+    width: 100%;
+}
+
+.product-list, .category-list {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
