@@ -3,14 +3,20 @@
 	overflow: hidden;
 	position: fixed;
 	width: 100%;
+	height: auto;
 	top: 0;
 	z-index: 1000;
+	display: flex;
+	justify-content: center; 
 }
 
 .menu ul {
+	font-size: larger;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+	display: flex;
+	justify-content: center; /* Align items horizontally to the center */
 }
 
 .menu ul li {
