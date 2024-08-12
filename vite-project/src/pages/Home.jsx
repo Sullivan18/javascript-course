@@ -1,8 +1,6 @@
 import './Home.css'; // Importar o arquivo CSS para estilização
-import '../components/Menu';
 import Menu from '../components/Menu';
 import produto1 from '../assets/produto.jpg';
-import banner from '../assets/banner.jpg';
 
 const Home = () => {
   return (
@@ -11,9 +9,6 @@ const Home = () => {
       <header className="header">
         <h1>Minha Loja</h1>
       </header>
-      <section className="banner">
-        <img src={banner} alt="Promoção" />
-      </section>
 
       <section id="products" className="products">
         <h2>Produtos em Destaque</h2>
@@ -25,7 +20,7 @@ const Home = () => {
             <button>Comprar</button>
           </div>
           <div className="product-item">
-            <img src={produto1} alt="Produto 1" /> 
+            <img src={produto1} alt="Produto 1" />
             <h3>Produto 2</h3>
             <p>Descrição do produto 2</p>
             <button>Comprar</button>

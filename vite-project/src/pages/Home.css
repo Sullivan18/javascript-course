@@ -18,13 +18,12 @@ html, body {
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
-    padding: 0 1rem; /* Add padding for mobile view */
 }
 
 .header {
     background-color: #333;
     color: white;
-    padding: 1rem;
+    padding-top: 1.5rem;
     text-align: center;
     width: 100vw;
 }
@@ -44,7 +43,7 @@ html, body {
 }
 
 .products, .categories, .footer {
-    padding: 2rem;
+    padding-top: 4rem;
     text-align: center;
     width: 100%;
 }
@@ -63,6 +62,7 @@ html, body {
     width: 30%;
     margin-bottom: 2rem; /* Add margin for spacing on smaller screens */
     box-sizing: border-box;
+    background-color: white; /* Add a background color to ensure visibility */
 }
 
 .product-item img {
@@ -78,6 +78,26 @@ html, body {
     content: "";
     display: block;
     padding-top: 100%; /* Maintain 1:1 aspect ratio */
+}
+
+.product-item h3, .product-item p, .product-item button {
+    position: relative;
+    z-index: 1;
+}
+
+.product-item h3, .product-item p {
+    margin: 0;
+    padding: 0.5rem 0;
+}
+
+.product-item button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
 }
 
 .footer {
